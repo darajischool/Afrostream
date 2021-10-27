@@ -1,59 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Array map</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
-            rel="stylesheet"
-        />
-        <link rel="stylesheet" href="style.css" />
-    </head>
-    <body>
-        <section class="section">
-            <header class="section-header">
-                <div class="section-header-info">
-                    <h1 class="section-header-title">Destinations</h1>
-                    <p class="section-header-label">
-                        choisissez votre prochaine aventure
-                    </p>
-                </div>
-                <div class="section-header-booking">
-                    <ul class="booking-list">
-                        <li class="booking-item">
-                            <small>where</small>
-                            <p>Temeri Jant</p>
-                        </li>
-                        <li class="booking-item">
-                            <small>check-in</small>
-                            <p>December 15, 2021</p>
-                        </li>
-                        <li class="booking-item">
-                            <small>check-out</small>
-                            <p>January 2, 2022</p>
-                        </li>
-                        <li class="booking-item">
-                            <small>adults</small>
-                            <p>4</p>
-                        </li>
-                        <li class="booking-item">
-                            <small>kids</small>
-                            <p>0</p>
-                        </li>
-                        <li>
-                            <button class="btn btn-secondary">Search</button>
-                        </li>
-                    </ul>
-                </div>
-            </header>
-            <div class="content" id="content">
-                <!-- dynamic content here -->
-            </div>
-        </section>
-        <script src="main.js"></script>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Array map</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="section">
+      <header class="section-header">
+        <div class="section-header-info">
+          <h1 class="section-header-title">Destinations</h1>
+          <p class="section-header-label">
+            choisissez votre prochaine aventure
+          </p>
+        </div>
+        <div class="section-header-booking">
+          <ul class="booking-list">
+            <li class="booking-item">
+              <small>where</small>
+              <p>Temeri Jant</p>
+            </li>
+            <li class="booking-item">
+              <small>check-in</small>
+              <p>December 15, 2021</p>
+            </li>
+            <li class="booking-item">
+              <small>check-out</small>
+              <p>January 2, 2022</p>
+            </li>
+            <li class="booking-item">
+              <small>adults</small>
+              <p>4</p>
+            </li>
+            <li class="booking-item">
+              <small>kids</small>
+              <p>0</p>
+            </li>
+            <li>
+              <button class="btn btn-secondary">Search</button>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <div class="content" id="content">
+        <div id="cards">
+          <div class="card">
+            <figure>
+              <img
+                src="https://source.unsplash.com/2gOxKj594nM/600x400"
+                alt="Temeri Jant"
+              />
+            </figure>
+            <h3>Temeri Jant</h3>
+            <p class="card-label">
+              Lorem ipsum dolor sit amet, consectetur adipis. Integer lipsum sit
+              amet
+            </p>
+          </div>
+          <div class="card">
+            <figure>
+              <img
+                src="https://source.unsplash.com/2gOxKj594nM/600x400"
+                alt="Temeri Jant"
+              />
+            </figure>
+            <h3>Temeri Jant</h3>
+            <p class="card-label">
+              Lorem ipsum dolor sit amet, consectetur adipis. Integer lipsum sit
+              amet
+            </p>
+          </div>
+          <div class="card">
+            <figure>
+              <img
+                src="https://source.unsplash.com/2gOxKj594nM/600x400"
+                alt="Temeri Jant"
+              />
+            </figure>
+            <h3>Temeri Jant</h3>
+            <p class="card-label">
+              Lorem ipsum dolor sit amet, consectetur adipis. Integer lipsum sit
+              amet
+            </p>
+          </div>
+          <div class="card">
+            <figure>
+              <img
+                src="https://source.unsplash.com/2gOxKj594nM/600x400"
+                alt="Temeri Jant"
+              />
+            </figure>
+            <h3>Temeri Jant</h3>
+            <p class="card-label">
+              Lorem ipsum dolor sit amet, consectetur adipis. Integer lipsum sit
+              amet
+            </p>
+          </div>
+          <div class="card">
+            <figure>
+              <img
+                src="https://source.unsplash.com/2gOxKj594nM/600x400"
+                alt="Temeri Jant"
+              />
+            </figure>
+            <h3>Temeri Jant</h3>
+            <p class="card-label">
+              Lorem ipsum dolor sit amet, consectetur adipis. Integer lipsum sit
+              amet
+            </p>
+          </div>
+          <div class="card">
+            <figure>
+              <img
+                src="https://source.unsplash.com/2gOxKj594nM/600x400"
+                alt="Temeri Jant"
+              />
+            </figure>
+            <h3>Temeri Jant</h3>
+            <p class="card-label">
+              Lorem ipsum dolor sit amet, consectetur adipis. Integer lipsum sit
+              amet
+            </p>
+          </div>
+          <div class="card">
+            <figure>
+              <img
+                src="https://source.unsplash.com/2gOxKj594nM/600x400"
+                alt="Temeri Jant"
+              />
+            </figure>
+            <h3>Temeri Jant</h3>
+            <p class="card-label">
+              Lorem ipsum dolor sit amet, consectetur adipis. Integer lipsum sit
+              amet
+            </p>
+          </div>
+          <div class="card">
+            <figure>
+              <img
+                src="https://source.unsplash.com/2gOxKj594nM/600x400"
+                alt="Temeri Jant"
+              />
+            </figure>
+            <h3>Temeri Jant</h3>
+            <p class="card-label">
+              Lorem ipsum dolor sit amet, consectetur adipis. Integer lipsum sit
+              amet
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="main.js"></script>
+  </body>
 </html>
