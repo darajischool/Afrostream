@@ -91,13 +91,12 @@ const destinations = [
   },
   {
     name: "The 3 Queens",
-    region: "California",
     country: "USA",
     address: "5 Maple Street, Los Angeles, CA, 90000",
     phone: "2125552345",
     about:
       "Lorem ipsum dolor sit amet, consectetur adipis. Integer lipsum  sit amet",
-    imgUrl: "https://source.unsplash.com/_A7H-ujstEc/600x400",
+    imgUrl: "https://source.unsplash.com/lWAOc0UuJ-A/600x400",
   },
   {
     name: "Seljalandsfoss",
