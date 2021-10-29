@@ -1,8 +1,21 @@
 # Challenge du week-end (29/10/2021)
-
 ## Objectif
+Créer une liste de destinations populaires de façon dynamique en utilisant le méthode **Array map de Javascript**. 
 
-<img width="1600" alt="Screen Shot 2021-10-28 at 10 03 38 AM" src="https://user-images.githubusercontent.com/84252935/139313132-36cadb22-89ca-4889-b04c-2c6739a5ff30.png">
+Faites la copie du projet et commencez à partir de la branche **dynamic-start**.
+<p align="center">
+<img width="304" alt="Screen Shot 2021-10-29 at 10 25 31 AM" src="https://user-images.githubusercontent.com/84252935/139452307-61728467-da65-4cdb-af1d-e82e51dae84c.png">
+</p>
+
+Vous pouvez naviguer vers **/Afrostream/Arrays/array-map** et en utilisant un serveur en local, afficher la page d'accueil sur le navigateur Chrome, Firefox ou Edge et vous verrez une liste avec le même carte qui se répéte indiquant ainsi la partie statique de notre page.
+
+<img width="1600" alt="Screen Shot 2021-10-29 at 10 14 01 AM" src="https://user-images.githubusercontent.com/84252935/139450541-6a4525d7-a1c9-4b89-b519-b78c1eab80b0.png">
+
+Utilisez les données d'entrées fournies ci-après et ajouter votre programme dans le fichier **_/array-map/main.js_** et faites en sorte que le contenu statique de votre page d'acceuil soit remplacé de façon dynamique avec les cartes contenues dans le tableau **destinations**
+
+**Au final votre page devrait s'afficher telle que l'image ci-dessous**
+
+<img width="1600" alt="Screen Shot 2021-10-29 at 10 20 17 AM" src="https://user-images.githubusercontent.com/84252935/139451609-f9211c31-c0a0-4ff7-a0da-ad0651896313.png">
 
 ## Données d'entrée
 
@@ -83,10 +96,29 @@ const destinations = [
   ];
 ```
 ## Ressources sur Youtube
-https://www.youtube.com/watch?v=GUwZNZaR4oM
+
+**Array Map - Comment créer une interface dynamique** (https://www.youtube.com/watch?v=GUwZNZaR4oM)
+
+![array-map-interface](https://user-images.githubusercontent.com/84252935/139447021-83cdca87-3948-40b4-a9bb-fee64f14a2af.jpg)
+
+**Array Map - Alphabet du Javascript** (https://youtu.be/N0-aDqiRLt0)
+
+<img width="1600" alt="Screen Shot 2021-10-29 at 9 54 25 AM" src="https://user-images.githubusercontent.com/84252935/139447517-de2e0242-b331-4101-ac8f-09ebe1dd26be.png">
+
 
 ## Comment partager votre solution
-Apres avoir fini prenez une capture et partager sur Twitter suivant le format ci-dessous
+Apres avoir fini prenez une capture d'écran et partager sur **Twitter** suivant le format ci-dessous:
+<p align="center">
+<img width="603" alt="Screen Shot 2021-10-29 at 9 36 18 AM" src="https://user-images.githubusercontent.com/84252935/139444672-37318191-8178-4b7f-8f11-4bcc817bbad9.png">
+</p>
 
-#darajischool #challengeDuWeekend
+**IMPORTANT: Utiliser les hashtags #darajischool #challengeDuWeekend**
+
 ## Pour aller plus loin
+Félicitations si vous avez déjà complété le challenge. 
+
+Comme bonus vous pourriez vous attaquer à dynamiser les données d'entrée en créant une API qui les fournit via **JSON**. Vous pouvez utiliser n'importe quel format backend ou suivre notre example avec **JSON server** (https://youtu.be/_9UG4KoLdkE). 
+
+Faites la modification au niveau de **_main.js_** pour maintenant utiliser la réponse de votre API au lieu du contenu statique. 
+
+N'oubliez pas de partager également cette solution suivant le même format sur **Twitter!**
