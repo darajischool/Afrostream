@@ -117,7 +117,12 @@ Apres avoir fini prenez une capture d'écran et partager sur **Twitter** suivant
 ## Pour aller plus loin
 Félicitations si vous avez déjà complété le challenge. 
 
-Comme bonus vous pourriez vous attaquer à dynamiser les données d'entrée en créant une API qui les fournit via **JSON**. Vous pouvez utiliser n'importe quel format backend ou suivre notre example avec **JSON server** (https://youtu.be/_9UG4KoLdkE). 
+Comme bonus vous pourriez vous attaquer à dynamiser les données d'entrée en créant une API qui les fournit via **JSON**. Vous pouvez utiliser n'importe quel format backend ou suivre notre example avec **JSON server** 
+
+**Créer une API Rest avec JSON Server** (https://youtu.be/_9UG4KoLdkE). 
+
+![poster-json-server-api](https://user-images.githubusercontent.com/84252935/139453265-a604b210-8f5e-4495-8050-620f6c49153f.jpg)
+
 
 Faites la modification au niveau de **_main.js_** pour maintenant utiliser la réponse de votre API au lieu du contenu statique. 
 
